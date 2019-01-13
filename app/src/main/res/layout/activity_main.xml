@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/back">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="ID"
+        android:id="@+id/editID"
+        android:textColor="#c41818" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="First Name"
+        android:id="@+id/editFName"
+        android:textColor="#c41818" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Last Name"
+        android:id="@+id/editLName"
+        android:textColor="#c41818" />
+
+    <EditText
+        android:id="@+id/editCar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Module"
+        android:inputType="text"
+        android:textColor="#c41818" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Checkup Date"
+        android:id="@+id/editLastCheck"
+        android:textColor="#c41818" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnModify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Modify" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:id="@+id/btnView" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View All"
+        android:id="@+id/btnViewAll" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan QR Code" />
+
+</LinearLayout>
